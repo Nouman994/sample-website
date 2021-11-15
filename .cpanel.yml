@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/i0twem10wm1e/public_html/git.thesocialfarm.net/
+    - /bin/cp index.html $DEPLOYPATH
